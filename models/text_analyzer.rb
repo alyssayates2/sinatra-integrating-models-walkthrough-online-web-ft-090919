@@ -21,7 +21,6 @@ class TextAnalyzer
   end
 
   def most_used_letter
-    binding.pry
     s1 = text.gsub(/[^a-z]/, '') # gets rid of spaces
     arr = s1.split('')
     arr1 = arr.uniq
@@ -41,5 +40,7 @@ class TextAnalyzer
     end
 
     biggest
+    binding.pry
+
   end
 end
