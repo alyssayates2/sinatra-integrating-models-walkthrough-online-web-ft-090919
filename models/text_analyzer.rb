@@ -1,3 +1,5 @@
+require 'pry'
+
 class TextAnalyzer
   attr_reader :text
 
